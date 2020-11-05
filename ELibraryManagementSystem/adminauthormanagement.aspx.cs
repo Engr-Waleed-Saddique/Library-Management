@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 namespace ELibraryManagementSystem
 {
 
-    // This project is on github also.
+    // This project is on github also.We are adding this on github.
     public partial class adminauthormanagement : System.Web.UI.Page
     {
         string strcon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
