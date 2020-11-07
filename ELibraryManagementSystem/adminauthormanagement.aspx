@@ -2,10 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {
-            //by default asp.net grid have not thead element in table and datatable work on thead so we have to add it manually through code of js then call datatable.
+            //by default asp.net grid have not thead dfdf element in table and datatable work on thead so we have to add it manually through code of js then call datatable.
             $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
         });
     </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
